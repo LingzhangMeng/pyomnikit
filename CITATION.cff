@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "pyomnikit: depth-robust program scoring, conservation, spatial-niche and cross-omics integration for kidney-disease transcriptomics"
+type: software
+version: 0.1.0
+license: MIT
+authors:
+  - family-names: Meng
+    given-names: Lingzhang
+    email: m.lingzhang@hotmail.com
+    affiliation: "Research Center for Medical Big Data and Artificial Intelligence, The People's Hospital of Guangxi Zhuang Autonomous Region (Guangxi Academy of Medical Sciences)"
+repository-code: "https://github.com/LingzhangMeng/pyomnikit"
+keywords:
+  - single-cell
+  - multi-omics
+  - spatial transcriptomics
+  - lupus nephritis
+  - program conservation
