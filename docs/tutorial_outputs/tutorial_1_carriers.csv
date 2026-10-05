@@ -1,0 +1,3 @@
+cell_type,n_cells,mean_score,auc_vs_rest,p_mwu,donor_diff_median,donor_p,q_BH
+Myeloid,878,0.30651997450302443,1.0,0.0,,,0.0
+Other,2122,-0.12682588954460655,0.0,0.0,,,0.0

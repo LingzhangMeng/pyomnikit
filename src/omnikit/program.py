@@ -83,9 +83,10 @@ def conservation(human_t, mouse_rho, human_p, mouse_p, sign_consistent=None,
     q = bh(p)
     sign_ok = np.sign(t) == np.sign(rho) if sign_consistent is None else np.asarray(sign_consistent, bool)
     conserved = sign_ok & (np.abs(t) >= t0) & (np.abs(rho) >= rho0) & (q < alpha)
-    df = {"combined_p": p, "combined_q": q, "sign_consistent": sign_ok, "conserved": conserved}
+    df = {"human_t": t, "mouse_rho": rho, "combined_p": p, "combined_q": q,
+          "sign_consistent": sign_ok, "conserved": conserved}
     if genes is not None:
-        df["gene"] = np.asarray(genes)
+        df = {"gene": np.asarray(genes), **df}
     return df
 
 

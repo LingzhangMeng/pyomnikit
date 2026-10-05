@@ -1,0 +1,3 @@
+stat,value,p_perm
+Moran_I,0.725,0.001
+Geary_C,0.275,0.001
